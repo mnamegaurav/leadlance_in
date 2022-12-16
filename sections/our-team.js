@@ -18,11 +18,11 @@ const data = [
     socialLinks: [
       {
         name: "linkedin",
-        link: "http://dribbble.com",
+        link: "https://www.linkedin.com/in/mnamegaurav/",
       },
       {
         name: "github",
-        link: "http://github.com/mnamegaurav",
+        link: "https://github.com/mnamegaurav",
       },
       {
         name: "youtube",
