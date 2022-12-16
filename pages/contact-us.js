@@ -21,9 +21,9 @@ export default function ContactUs() {
                 src="https://docs.google.com/forms/d/e/1FAIpQLSdYKk5rOsKZVTU798gEn3xj_vLfSfShHz4z4mbuI8v3tWsSEQ/viewform?embedded=true"
                 width="100%"
                 height="1500"
-                frameborder="0"
-                marginheight="0"
-                marginwidth="0"
+                frameBorder="0"
+                marginHeight="0"
+                marginWidth="0"
               >
                 Loading…
               </iframe>

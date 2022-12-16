@@ -1,7 +1,8 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, Box, Container, Heading, Text, Image } from "theme-ui";
-import Tabs, { TabPane } from "rc-tabs";
+import Tabs from "rc-tabs";
+import TabPane from "rc-tabs";
 import { RiCheckboxCircleFill } from "react-icons/ri";
 import { rgba } from "polished";
 import { LearnMore } from "../components/link";
@@ -55,7 +56,7 @@ const WhyUs = () => {
   return (
     <Box as="section" id="why-us" sx={styles.section}>
       <Container>
-        <Tabs sx={styles.tabs} animated={{ tabPane: true }}>
+        <Tabs sx={styles.tabs} animated={{ tabPane: false }}>
           {data?.map((item) => (
             <TabPane
               key={item.id}

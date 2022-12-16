@@ -54,22 +54,22 @@ const data = [
       },
     ],
   },
-  {
-    id: 3,
-    avatar: "assets/images/team/member3.png",
-    name: "Lavlesh Pandey",
-    designation: "UI/UX Designer",
-    socialLinks: [
-      {
-        name: "twitter",
-        link: "http://twitter.com",
-      },
-      {
-        name: "github",
-        link: "http://github.com",
-      },
-    ],
-  },
+  // {
+  //   id: 3,
+  //   avatar: "assets/images/team/member3.png",
+  //   name: "Lavlesh Pandey",
+  //   designation: "UI/UX Designer",
+  //   socialLinks: [
+  //     {
+  //       name: "twitter",
+  //       link: "http://twitter.com",
+  //     },
+  //     {
+  //       name: "github",
+  //       link: "http://github.com",
+  //     },
+  //   ],
+  // },
 ];
 
 const OurTeam = () => {
@@ -164,7 +164,7 @@ const OurTeam = () => {
         <Swiper
           ref={swiperRef}
           spaceBetween={30}
-          watchSlidesVisibility={true}
+          // watchSlidesVisibility={true}
           slidesPerView={5}
           breakpoints={breakpoints}
         >
@@ -194,9 +194,13 @@ const styles = {
   },
   teamWrapper: {
     position: "relative",
-    pl: [6],
+    ml: [0],
+    pl: [0],
     pr: [6, null, null, 0],
     transition: "0.3s ease-in-out 0s",
+    ".swiper-wrapper": {
+      justifyContent: "center",
+    },
     ".swiper-arrow": {
       backgroundColor: "#fff",
       border: 0,

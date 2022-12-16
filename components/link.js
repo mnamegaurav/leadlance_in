@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import NextLink from "next/link";
-import { jsx, Link as A } from "theme-ui";
+import { jsx, Link as ALink } from "theme-ui";
 import { Link as MenuLink } from "react-scroll";
 import { HiOutlineChevronRight } from "react-icons/hi";
 
@@ -24,18 +24,18 @@ export function NavLink({ path, label, children, ...rest }) {
 
 export function Link({ path, label, children, ...rest }) {
   return (
-    <NextLink href={path} passHref>
-      <A {...rest}>{children ? children : label}</A>
+    <NextLink legacyBehavior href={path} passHref>
+      <ALink {...rest}>{children ? children : label}</ALink>
     </NextLink>
   );
 }
 
 export function LearnMore({ path, label, children, ...rest }) {
   return (
-    <NextLink href={path}>
-      <A sx={styles.learnMore} {...rest}>
+    <NextLink legacyBehavior href={path}>
+      <ALink sx={styles.learnMore} {...rest}>
         {label ?? "Learn More"} <HiOutlineChevronRight />
-      </A>
+      </ALink>
     </NextLink>
   );
 }
