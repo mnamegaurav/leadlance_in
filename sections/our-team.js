@@ -194,12 +194,12 @@ const styles = {
   },
   teamWrapper: {
     position: "relative",
-    ml: [0],
-    pl: [0],
+    ml: [null, null, null, 0],
+    pl: [6, null, null, 0],
     pr: [6, null, null, 0],
     transition: "0.3s ease-in-out 0s",
     ".swiper-wrapper": {
-      justifyContent: "center",
+      justifyContent: [null, null, null, "center"],
     },
     ".swiper-arrow": {
       backgroundColor: "#fff",
