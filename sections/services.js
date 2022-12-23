@@ -13,19 +13,19 @@ const data = [
     id: 1,
     icon: <IoHelpBuoy color="#81a1a2" size="3rem" />,
     title: "Consultation",
-    description: `You can have a call with us anytime to discuss your requirement and we will always be ready for help.`,
+    description: `You can have a quick call with us anytime to discuss your requirement and we will always be ready for help, just reach us out by clicking on Get In Touch button.`,
   },
   {
     id: 2,
     icon: <CgWebsite color="#f7b59c" size="3rem" />,
-    title: "Website Development",
-    description: `We are expert in Landing Pages, Informative Websites, Custom Websites for your business, E-Commerce Websites, Grocery Websites, Educational Wewbsites and much more`,
+    title: "Full Stack Web Development",
+    description: `We are expert in Web Apps, Dashboards, E-Commerce, Landing Pages, Info Websites, rocery Websites, Educational Wewbsites and much more`,
   },
   {
     id: 3,
     icon: <FaMobileAlt color="#55acee" size="3rem" />,
     title: "Mobile App Development",
-    description: `We have a great team of Mobile App developers who can build Any kind of Mobile Apps such as E-commerce, Grocery, Hotel Booking, File Managers, Audio Recorders, Utitlity Apps, Social Media Apps and much more.`,
+    description: `We have a great team of Mobile App developers for kind of Mobile Apps such as E-commerce, Grocery, Hotel Booking, Utitlity Apps, Social Media Apps and much more.`,
   },
 ];
 
